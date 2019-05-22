@@ -1,0 +1,40 @@
+#desk {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid black;    
+}
+.black{
+    background-color: #424242;
+}
+.active{
+    background-color: green;
+}
+.horseMove{
+    background-color: orange;
+    background-image: url(img/1511307-200.png);
+    background-size: contain;
+}
+.text{
+    max-width: 300px;
+    margin: 15px auto;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
